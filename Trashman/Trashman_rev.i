@@ -1,0 +1,14 @@
+VERSION		EQU	1
+REVISION	EQU	2
+DATE	MACRO
+		dc.b	'28.11.96'
+	ENDM
+VERS	MACRO
+		dc.b	'Trashman 1.2'
+	ENDM
+VSTRING	MACRO
+		dc.b	'Trashman 1.2 (28.11.96)',13,10,0
+	ENDM
+VERSTAG	MACRO
+		dc.b	0,'$VER: Trashman 1.2 (28.11.96)',0
+	ENDM

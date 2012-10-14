@@ -1,0 +1,354 @@
+## version $VER: Trashman.catalog 1.3 (07.04.97)
+## language deutsch
+## codeset 0
+;
+; Trashman locale description file
+;
+MSG_BAD_SYSTEM_VERSION
+Sie brauchen einen Amiga\nmit OS 3.0
+;
+MSG_ICON_TITLE
+Papierkorb
+;
+MSG_TOOLS_MENU
+Papierkorb leeren
+;
+MSG_REQTITLE
+Trashman
+;
+MSG_EMPTYALL
+Wollen sie wirklich\nalle Papierkorb leeren?
+;
+MSG_YESNO_GAD
+_Ja|_Nein
+;
+MSG_REMOVESELECTED
+Wollen sie wirklich\ndie ausgewählten Files löschen?
+;
+MSG_ADD_VOLUMES
+Wählen sie ein Gerät\nmit einem Papierkorb aus
+;
+MSG_ADD_GAD
+_Hinzufügen
+;
+MSG_FORCE_DELETE_TITLE
+Geben sie ein Pattern ein
+;
+MSG_DIR
+(dir)
+;
+MSG_SCREEN_TITLE
+Trashman von Tomasz Muszynski
+;
+MSG_MOVING_FILES
+Verschiebe in den Papierkorb...
+;
+MSG_FILE_IS_LINK
+Datei:\n%s\nist ein(e) %s\nund kann nicht gelöscht werden
+;
+MSG_DELETE_LINK_GAD
+_Lösche link|_Abbruch
+;
+MSG_SOFT_LINK
+Softlink
+;
+MSG_HARD_LINK_DIR
+Hardlink zum Verzeichnis
+;
+MSG_HARD_LINK_FILE
+Hardlink zum File
+;
+MSG_FILE_ALREADY_EXISTS_IN_TRASHCAN
+Datei:\n%s\existiert bereits im Papierkorb
+;
+MSG_EXISTS_TRASHCAN_GAD
+_Ersetzen|_Umbenennen|_Löschen|_Übergehen
+;
+MSG_SELECT_DESTINATION
+Wählen sie ein Zielverzeichnis aus...
+;
+MSG_UNDELETE_GAD
+_Löschen rückgängig machen
+;
+MSG_READING_DIRECTORY
+Lese Verzeichnis...
+;
+MSG_ABOUT
+Trashman v%d.%d\nvon\nTomasz Muszynski\n\nDieses Programm ist\nFREEWARE
+;
+MSG_ABOUT_OK_GAD
+_Ok
+;
+MSG_WINDOW_TITLE
+Trashcan, V:[%d/%d] D:[%d/%d] B:[%d/%d] %s
+;
+MSG_PREFERENCES_TITLE
+Trashman Voreinsteller
+;
+MSG_OVERWRITE_NEVER_GAD
+Nie
+;
+MSG_OVERWRITE_ALWAYS_GAD
+Immer
+;
+MSG_OVERWRITE_ASK_GAD
+Frage
+;
+MSG_OVERWRITE_SAME_LOC_GAD
+Gleiche Herkunft
+;
+MSG_MISCELAENOUS
+Verschiedenes
+;
+MSG_VOLUMES
+Geräte
+;
+MSG_FORCE_DELETE
+Zwinge löschen
+;
+MSG_OVERWRITE
+Überschreiben
+;
+MSG_MIN_FREE_DISK
+Min. Platz auf Vol.
+;
+MSG_KB_ON_DISK_GAD
+KB auf Vol.
+;
+MSG_PROJECT_MENU
+Projekt
+;
+MSG_PROJECT_OPEN_MENU
+O\000Öffnen...
+;
+MSG_PROJECT_SAVE_AS_MENU
+A\000Speichern als...
+;
+MSG_PROJECT_HIDE_MENU
+H\000Verstecken
+;
+MSG_PROJECT_QUIT_MENU
+Q\000Ende
+;
+MSG_WINDOW_MENU
+Fenster
+;
+MSG_WINDOW_CLOSE_MENU
+K\000Schließen
+;
+MSG_WINDOW_UPDATE_MENU
+\000\000Zurücksetzen
+;
+MSG_WINDOW_SELECT_CONTENTS_MENU
+\000\000Inhalt auswählen
+;
+MSG_WINDOW_SNAPSHOT_MENU
+Snapshot
+;
+MSG_WINDOW_SNAPSHOT_DESKTOP_MENU
+\000\000Desktop Icon
+;
+MSG_WINDOW_SNAPSHOT_MAIN_MENU
+\000\000Hauptfenster
+;
+MSG_WINDOW_SNAPSHOT_TRASHCAN_MENU
+\000\000Papierkorbfenster
+;
+MSG_WINDOW_VIEW_MENU
+Sortieren nach
+;
+MSG_WINDOW_VIEW_NAME_MENU
+\000\000Name
+;
+MSG_WINDOW_VIEW_SIZE_MENU
+\000\000Größe
+;
+MSG_WINDOW_VIEW_DATE_MENU
+\000\000Datum
+;
+MSG_WINDOW_VIEW_LOCATION_MENU
+\000\000Herkunft
+;
+MSG_FILES_MENU
+Dateien
+;
+MSG_FILES_REMOVE_SEL_MENU
+S\000Ausgewähltes löschen
+;
+MSG_FILES_EMPTY_ALL_MENU
+E\000Alle Papierkorb leeren
+;
+MSG_FILES_UNDELETE_ORG_MENU
+U\000Löschen rückgängig machen
+;
+MSG_FILES_UNDELETE_OTHER_MENU
+T\000Kopieren nach...
+;
+MSG_SETTINGS_MENU
+Einstellungen
+;
+MSG_SETTINGS_EDIT_MENU
+P\000Bearbeiten...
+;
+MSG_SETTINGS_ABOUT_MENU
+\000\000Über...
+;
+MSG_SAVE_GAD
+Speichern
+;
+MSG_USE_GAD
+Benutzen
+;
+MSG_CANCEL_GAD
+Abbrechen
+;
+MSG_PATCH_DELETE_GAD
+Patch Delete()
+;
+MSG_PATCH_OPEN_GAD
+Patch Open()
+;
+MSG_PREFS_ADD1_GAD
+Hinzufügen
+;
+MSG_PREFS_REMOVE1_GAD
+Entfernen
+;
+MSG_PREFS_ADD2_GAD
+Hinzufügen
+;
+MSG_PREFS_REMOVE2_GAD
+Entfernen
+;
+MSG_APP_WINDOW_GAD
+App Fenster
+;
+MSG_APP_ICON_GAD
+App Icon
+;
+MSG_APP_MENU_GAD
+App Menü
+;
+MSG_ASK_BEFORE_DEL_GAD
+Fragen vor löschen
+;
+MSG_ANIMATIONS_GAD
+Animationen
+;
+MSG_HIDE_CLOSES_ALL_GAD
+Verstecken schließt alles
+;
+MSG_DELETE_IF_ZEROK_GAD
+Löschen wenn Größe = 0
+;
+MSG_REMOVE_SELECTED
+Lösche ausgewähltes...
+;
+MSG_REMOVE_ALL
+Leere Papierkorb...
+;
+MSG_UNDELETE_SELECTED
+Mache löschen rückgängig...
+;
+MSG_DELETED_PROGRESS
+Gelöscht: %ld%%
+;
+MSG_UNDELETED_PROGRESS
+Gerettet: %ld%%
+;
+MSG_OK_GAD
+_Ok
+;
+MSG_SAVE_TRASHMAN_PREFS
+Speichere Trashman Voreinstellungen
+;
+MSG_LOAD_TRASHMAN_PREFS
+Lade Trashman Voreinstellungen
+;
+MSG_FILE_ALREADY_EXISTS
+Datei:\n%s\nexistiert bereits
+;
+MSG_EXISTS_GAD
+_Ersetzen|_Übergehen
+;
+MSG_UNDELETE_ERROR
+Kann löschen nicht rückgängig machen weil:\n
+;
+MSG_NOT_ENOUGH_MEMORY_TO
+Nicht genügend Speicher um\n%s.
+;
+MSG_MOVE_FILE
+Datei zu verschieben
+;
+MSG_COMMODITY_TITLE
+Trashman v%d.%d von Tomasz Muszynski
+;
+MSG_COMMODITY_DESCRIPTION
+Trashcan Manager
+;
+MSG_DELETE_ERROR
+Kann nicht löschen weil:\n
+;
+MSG_ERROR_CANT_OPEN_REQTOOLS
+reqtools.library kann nicht geöffnet werden
+;
+MSG_ERROR_CANT_OPEN_LOCALE
+locale kann nicht geöffnet werden
+;
+MSG_ERROR_CANT_CREATE_PORT
+Messageport kann nicht geöffnet werden
+;
+MSG_ERROR_CANT_CREATE_HOTKEY
+Hotkey kann nicht kreiert werden
+;
+MSG_ERROR_CANT_OPEN_FONT
+Kann disk font nicht öffnen
+;
+MSG_ERROR_CANT_OPEN_PROGRESS
+Kann progress.gadget nicht öffnen
+;
+MSG_ERROR_CANT_SETUP_SCREEN
+Kann nicht auf diesem Screen arbeiten
+;
+MSG_ERROR_CANT_GET_DRI
+Kann Zeicheninfo nicht bekommen
+;
+MSG_ERROR_CANT_ALLOC_REQ
+Kann Requester nicht allozieren
+;
+MSG_ERROR_CANT_OPEN_ICON
+Kann Icon nicht öffnen
+;
+MSG_ERROR_CANT_ALLOC_DOSOBJ
+Kann DOS-Objekt nicht allozieren
+;
+MSG_ERROR_CANT_CREATE_APPWINDOW
+Kann App Fenster nicht öffnen
+;
+MSG_ERROR_CANT_CREATE_APPICON
+Kann App-Icon nicht öffnen
+;
+MSG_ERROR_CANT_CREATE_APPMENU
+Kann App-Menü nicht öffnen
+;
+MSG_ERROR_CANT_CREATE_COMMODITY
+Kann Commodity nicht öffnen
+;
+MSG_ERROR_CANT_CREATE_OBJECT
+Kann Bildobjekt nicht erstellen
+;
+MSG_DISK_FULL
+Gerät %s hat weniger als %ldKB freien Platz.\nWollen sie den Papierkorb auf diesem Gerät leeren?
+;
+MSG_ERROR_CANT_OPEN_MULTIUSER
+Kann multiuser.library nicht öffnen
+;
+MSG_ERROR_CANT_ALLOC_USERINFO
+Kann UserInfo nicht allozieren
+;
+MSG_SOUND_GAD
+Sound
+;
+MSG_SELECT_SOUND
+Wähle 'Papierkorb leeren' Sound...
+;

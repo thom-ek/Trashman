@@ -1,0 +1,354 @@
+## version $VER: Trashman.catalog 1.2 (25.02.97)
+## language √e”tina
+## codeset 0
+;
+; Trashman locale translation file
+;
+MSG_BAD_SYSTEM_VERSION
+Pot“ebuje” Amigu\ns OS 3.0
+;
+MSG_ICON_TITLE
+Trash
+;
+MSG_TOOLS_MENU
+Vysyp ko”e
+;
+MSG_REQTITLE
+Trashman
+;
+MSG_EMPTYALL
+Chce” OPRAVDU vysypat\nVÛECHNY ko”e?
+;
+MSG_YESNO_GAD
+_Ano|_Ne
+;
+MSG_REMOVESELECTED
+Chce” opravdu smazat\nvybran◊ soubory?
+;
+MSG_ADD_VOLUMES
+Vyber disky s ko”i...
+;
+MSG_ADD_GAD
+_P“idat
+;
+MSG_FORCE_DELETE_TITLE
+Maska soubor  mazanŸch bez √ek¡n… v ko”i
+;
+MSG_DIR
+(dir)
+;
+MSG_SCREEN_TITLE
+Trashman v1.2 napsal Tomasz Muszynski
+;
+MSG_MOVING_FILES
+P“esunuji do ko”e...
+;
+MSG_FILE_IS_LINK
+Soubor:\n%s\nje %s\na nem ⁄e bŸt p“esunut do ko”e
+;
+MSG_DELETE_LINK_GAD
+_Snazat link|_P“esko√
+;
+MSG_SOFT_LINK
+soft link
+;
+MSG_HARD_LINK_DIR
+hard link na adres¡“
+;
+MSG_HARD_LINK_FILE
+hard link k souboru
+;
+MSG_FILE_ALREADY_EXISTS_IN_TRASHCAN
+Soubor se jm◊nem:\n%s\nu⁄ existuje v ko”i
+;
+MSG_EXISTS_TRASHCAN_GAD
+_P“epsat|P“_ejmenovat|_Smazat|_Zru”it
+;
+MSG_SELECT_DESTINATION
+Zvol c…lovŸ adres¡“...
+;
+MSG_UNDELETE_GAD
+_Obnova
+;
+MSG_READING_DIRECTORY
+Na√…t¡m adres¡“...
+;
+MSG_ABOUT
+Trashman v1.2\nnapsal\nTomasz Muszynski\n\nTento program je\nFREEWARE
+;
+MSG_ABOUT_OK_GAD
+_Ok
+;
+MSG_WINDOW_TITLE
+Odpadkov◊ ko”e. Adres¡“e:[%d/%d] Soubory:[%d/%d] Velikost:[%d/%d] %sbyt 
+;
+MSG_PREFERENCES_TITLE
+Nastaven… parametr  pro Trashman
+;
+MSG_OVERWRITE_NEVER_GAD
+Nikdy
+;
+MSG_OVERWRITE_ALWAYS_GAD
+V⁄dy
+;
+MSG_OVERWRITE_ASK_GAD
+Po dotazu
+;
+MSG_OVERWRITE_SAME_LOC_GAD
+Ze stejn◊ho dir
+;
+MSG_MISCELAENOUS
+R zn◊
+;
+MSG_VOLUMES
+Za“…zen…
+;
+MSG_FORCE_DELETE
+Smazat bez ko”e
+;
+MSG_OVERWRITE
+P“emazat v ko”i
+;
+MSG_MIN_FREE_DISK
+Min. volno na disku
+;
+MSG_KB_ON_DISK_GAD
+KB na disku
+;
+MSG_PROJECT_MENU
+Projekt
+;
+MSG_PROJECT_OPEN_MENU
+O\000Otev“…t pref...
+;
+MSG_PROJECT_SAVE_AS_MENU
+U\000Ulo⁄it jako...
+;
+MSG_PROJECT_HIDE_MENU
+H\000SkrŸt
+;
+MSG_PROJECT_QUIT_MENU
+K\000Konec
+;
+MSG_WINDOW_MENU
+Okno
+;
+MSG_WINDOW_CLOSE_MENU
+Z\000Zav“…t
+;
+MSG_WINDOW_UPDATE_MENU
+\000\000Aktualizovat
+;
+MSG_WINDOW_SELECT_CONTENTS_MENU
+\000\000zna√ v”e v ko”i
+;
+MSG_WINDOW_SNAPSHOT_MENU
+Zapsat um…st≈n…
+;
+MSG_WINDOW_SNAPSHOT_DESKTOP_MENU
+\000\000Ikony na plo”e
+;
+MSG_WINDOW_SNAPSHOT_MAIN_MENU
+\000\000Okna obsahu ko” 
+;
+MSG_WINDOW_SNAPSHOT_TRASHCAN_MENU
+\000\000App okna ko”e
+;
+MSG_WINDOW_VIEW_MENU
+Po“ad… v ko”i
+;
+MSG_WINDOW_VIEW_NAME_MENU
+\000\000Dle N¡zvu
+;
+MSG_WINDOW_VIEW_SIZE_MENU
+\000\000Dle Velikosti
+;
+MSG_WINDOW_VIEW_DATE_MENU
+\000\000Dle Data
+;
+MSG_WINDOW_VIEW_LOCATION_MENU
+\000\000Dle Disk 
+;
+MSG_FILES_MENU
+Soubory
+;
+MSG_FILES_REMOVE_SEL_MENU
+D\000Smazat  vybran◊
+;
+MSG_FILES_EMPTY_ALL_MENU
+V\000Vysypat v”echny ko”e
+;
+MSG_FILES_UNDELETE_ORG_MENU
+B\000Obnovit zp≈t
+;
+MSG_FILES_UNDELETE_OTHER_MENU
+J\000Obnovit jinam...
+;
+MSG_SETTINGS_MENU
+Nastaven…
+;
+MSG_SETTINGS_EDIT_MENU
+E\000Editace...
+;
+MSG_SETTINGS_ABOUT_MENU
+\000\000Info...
+;
+MSG_SAVE_GAD
+Ulo⁄it
+;
+MSG_USE_GAD
+Pou⁄…t
+;
+MSG_CANCEL_GAD
+Zru”it
+;
+MSG_PATCH_DELETE_GAD
+Patch Delete()
+;
+MSG_PATCH_OPEN_GAD
+Patch Open()
+;
+MSG_PREFS_ADD1_GAD
+P“idat
+;
+MSG_PREFS_REMOVE1_GAD
+Ubrat
+;
+MSG_PREFS_ADD2_GAD
+P“idat
+;
+MSG_PREFS_REMOVE2_GAD
+Ubrat
+;
+MSG_APP_WINDOW_GAD
+App Okno
+;
+MSG_APP_ICON_GAD
+App Ikona
+;
+MSG_APP_MENU_GAD
+App Menu
+;
+MSG_ASK_BEFORE_DEL_GAD
+Dotaz p“ed maz¡n…m
+;
+MSG_ANIMATIONS_GAD
+Animace
+;
+MSG_HIDE_CLOSES_ALL_GAD
+SkrŸt=zav“…t v”e
+;
+MSG_DELETE_IF_ZEROK_GAD
+Mazat 0 Kb soubory
+;
+MSG_REMOVE_SELECTED
+Ma⁄u vybran◊ soubory...
+;
+MSG_REMOVE_ALL
+„ist…m ko”...
+;
+MSG_UNDELETE_SELECTED
+Obnovuji soubory...
+;
+MSG_DELETED_PROGRESS
+Smaz¡no: %ld%%
+;
+MSG_UNDELETED_PROGRESS
+Obnoveno: %ld%%
+;
+MSG_OK_GAD
+_Ok
+;
+MSG_SAVE_TRASHMAN_PREFS
+Ulo⁄ nastaven… Trashmanu
+;
+MSG_LOAD_TRASHMAN_PREFS
+Nahr¡t nastaven… Trashmanu
+;
+MSG_FILE_ALREADY_EXISTS
+Soubor:\n%s\nu⁄ existuje
+;
+MSG_EXISTS_GAD
+_Nahradit|_P“esko√it
+;
+MSG_UNDELETE_ERROR
+Soubor nejde obnovit proto⁄e\n
+;
+MSG_NOT_ENOUGH_MEMORY_TO
+M¡lo pam≈ti na\n%s.
+;
+MSG_MOVE_FILE
+p“esun souboru
+;
+MSG_COMMODITY_TITLE
+Trashman v1.2 napsal Tomasz Muszynski
+;
+MSG_COMMODITY_DESCRIPTION
+Mana⁄er ko” 
+;
+MSG_DELETE_ERROR
+Soubor nejde smazat proto⁄e\n
+;
+MSG_ERROR_CANT_OPEN_REQTOOLS
+Nem ⁄u otev“…t reqtools.library
+;
+MSG_ERROR_CANT_OPEN_LOCALE
+Nem ⁄u otev“…t locale
+;
+MSG_ERROR_CANT_CREATE_PORT
+Nem ⁄u vytvo“it message port
+;
+MSG_ERROR_CANT_CREATE_HOTKEY
+Nem ⁄u vytvo“it hork◊ kl¡vesy
+;
+MSG_ERROR_CANT_OPEN_FONT
+Nem ⁄u otev“…t disk font
+;
+MSG_ERROR_CANT_OPEN_PROGRESS
+Nem ⁄u otev“it progress.gadget
+;
+MSG_ERROR_CANT_SETUP_SCREEN
+Nem ⁄u nastavit obrazovku
+;
+MSG_ERROR_CANT_GET_DRI
+Nem ⁄u dostat vybran◊ info
+;
+MSG_ERROR_CANT_ALLOC_REQ
+Nem ⁄u alokovat requester
+;
+MSG_ERROR_CANT_OPEN_ICON
+Nem ⁄u otev“…t ikonu ko”e
+;
+MSG_ERROR_CANT_ALLOC_DOSOBJ
+Nem ⁄u alokovat DOS objekt
+;
+MSG_ERROR_CANT_CREATE_APPWINDOW
+Nem ⁄u vytvo“it App Okno
+;
+MSG_ERROR_CANT_CREATE_APPICON
+Nem ⁄u vytvo“it App Ikonu
+;
+MSG_ERROR_CANT_CREATE_APPMENU
+Nem ⁄u vytvo“it App Menu
+;
+MSG_ERROR_CANT_CREATE_COMMODITY
+Nem ⁄u vytvo“it komoditu
+;
+MSG_ERROR_CANT_CREATE_OBJECT
+Nem ⁄u vytvo“it image objektt
+;
+MSG_DISK_FULL
+Za“…zen… %s m¡ m◊m≈ ne⁄ %ldKB voln◊ho m…sta.\nChce” vysypat ko” na tomto za“…zen…?
+;
+MSG_ERROR_CANT_OPEN_MULTIUSER
+Nem ⁄u otev“…t multiuser.library
+;
+MSG_ERROR_CANT_ALLOC_USERINFO
+Nem ⁄u alokovat UserInfo.
+;
+MSG_SOUND_GAD
+Sampl
+;
+MSG_SELECT_SOUND
+Vyber sampl pro vysyp¡n… ko”e...
+;

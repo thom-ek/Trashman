@@ -1,0 +1,470 @@
+## version $VER: Trashman.catalog 1.3 (4.3.97) por Samuel 'Slyguy' Aguilera <slyguy92@arrakis.es>
+## language español
+## codeset 0
+;
+; Trashman locale description file
+;
+MSG_BAD_SYSTEM_VERSION
+Necesitas un Amiga\ncon SO 3.0
+;You need an Amiga\nwith OS 3.0
+;
+MSG_ICON_TITLE
+Papelera
+;Trash
+;
+MSG_TOOLS_MENU
+Vaciar Papelera
+;Empty Trash
+;
+MSG_REQTITLE
+Trashman
+;Trashman
+;
+MSG_EMPTYALL
+¿Realmente quieres vaciar\ntodas las papeleras?
+;Do you really want to\nempty all trashcans?
+;
+MSG_YESNO_GAD
+_Si|_No
+;_Yes|_No
+;
+MSG_REMOVESELECTED
+¿Realmente quieres eleminar los\nficheros seleccionados?
+;Do you really want to remove\nselected files?
+;
+MSG_ADD_VOLUMES
+Selecciona un disco con papelera
+;Select disk with trashcan
+;
+MSG_ADD_GAD
+_Añadir
+;_Add
+;
+MSG_FORCE_DELETE_TITLE
+Introduce el patrón de ficheros para forzar borrado
+;Enter file pattern to force delete
+;
+MSG_DIR
+(dir)
+;(dir)
+;
+MSG_SCREEN_TITLE
+Trashman por Tomasz Muszynski
+;Trashman by Tomasz Muszynski
+;
+MSG_MOVING_FILES
+Moviendo a Papelera...
+;Moving to Trashcan...
+;
+MSG_FILE_IS_LINK
+Fichero:\n%s\nes un %s y no\npuede ser movido a la papelera.
+;File:\n%s\nis a %s\nand can't be moved to trashcan
+;
+MSG_DELETE_LINK_GAD
+_Borrar enlace|_Saltar
+;_Delete link|_Skip
+;
+MSG_SOFT_LINK
+enlace soft
+;soft link
+;
+MSG_HARD_LINK_DIR
+enlace hard a directorio
+;hard link to dir
+;
+MSG_HARD_LINK_FILE
+enlace hard a fichero
+;hard link to file
+;
+MSG_FILE_ALREADY_EXISTS_IN_TRASHCAN
+Fichero:\n%s\nya existe en la papelera
+;File:\n%s\nalready exists in trashcan
+;
+MSG_EXISTS_TRASHCAN_GAD
+_Reemplazar|_Renombrar|_Borrar|_Saltar
+;_Replace|_Rename|_Delete|_Skip
+;
+MSG_SELECT_DESTINATION
+Selecciona destino...
+;Select destination...
+;
+MSG_UNDELETE_GAD
+_Recuperar
+;_Undelete
+;
+MSG_READING_DIRECTORY
+Leyendo Directorio...
+;Reading Directory...
+;
+MSG_ABOUT
+Trashman v%d.%d\npor\nTomasz Muszynski\n\nEste programa es\nFREEWARE
+;Trashman v%d.%d\nby\nTomasz Muszynski\n\nThis program is\nFREEWARE
+;
+MSG_ABOUT_OK_GAD
+_OK
+;_Ok
+;
+MSG_WINDOW_TITLE
+Trashcan, D:[%d/%d] F:[%d/%d] B:[%d/%d] %s
+;Trashcan, D:[%d/%d] F:[%d/%d] B:[%d/%d] %s
+;
+MSG_PREFERENCES_TITLE
+Preferencias Trashman
+;Trashman Preferences
+;
+MSG_OVERWRITE_NEVER_GAD
+Nunca
+;Never
+;
+MSG_OVERWRITE_ALWAYS_GAD
+Siempre
+;Always
+;
+MSG_OVERWRITE_ASK_GAD
+Preguntar
+;Ask
+;
+MSG_OVERWRITE_SAME_LOC_GAD
+Misma Localización
+;Same Location
+;
+MSG_MISCELAENOUS
+Varios
+;Miscelaenous
+;
+MSG_VOLUMES
+Volúmenes
+;Volumes
+;
+MSG_FORCE_DELETE
+Forzar Borrado
+;Force Delete
+;
+MSG_OVERWRITE
+Sobreescribir
+;Overwrite
+;
+MSG_MIN_FREE_DISK
+Min.libre en disco
+;Min free on disk
+;
+MSG_KB_ON_DISK_GAD
+KB en disco
+;KB on disk
+;
+MSG_PROJECT_MENU
+Proyecto
+;Project
+;
+MSG_PROJECT_OPEN_MENU
+O\000Abrir...
+;O\000Open...
+;
+MSG_PROJECT_SAVE_AS_MENU
+A\000Grabar Como...
+;A\000Save As...
+;
+MSG_PROJECT_HIDE_MENU
+H\000Ocultar
+;H\000Hide
+;
+MSG_PROJECT_QUIT_MENU
+Q\000Salir
+;Q\000Quit
+;
+MSG_WINDOW_MENU
+Ventana
+;Window
+;
+MSG_WINDOW_CLOSE_MENU
+K\000Cerrar
+;K\000Close
+;
+MSG_WINDOW_UPDATE_MENU
+\000\000Actualizar
+;\000\000Update
+;
+MSG_WINDOW_SELECT_CONTENTS_MENU
+\000\000Seleccionar Contenidos
+;\000\000Select Contents
+;
+MSG_WINDOW_SNAPSHOT_MENU
+Congelar
+;Snapshot
+;
+MSG_WINDOW_SNAPSHOT_DESKTOP_MENU
+\000\000Icono Sobremesa
+;\000\000Desktop Icon
+;
+MSG_WINDOW_SNAPSHOT_MAIN_MENU
+\000\000Ventana Principal
+;\000\000Main Window
+;
+MSG_WINDOW_SNAPSHOT_TRASHCAN_MENU
+\000\000Ventana Trashcan
+;\000\000Trashcan Window
+;
+MSG_WINDOW_VIEW_MENU
+Ver por 
+;View by
+;
+MSG_WINDOW_VIEW_NAME_MENU
+\000\000Nombre
+;\000\000Name
+;
+MSG_WINDOW_VIEW_SIZE_MENU
+\000\000Tamaño
+;\000\000Size
+;
+MSG_WINDOW_VIEW_DATE_MENU
+\000\000Fecha
+;\000\000Date
+;
+MSG_WINDOW_VIEW_LOCATION_MENU
+\000\000Localización
+;\000\000Location
+;
+MSG_FILES_MENU
+Ficheros
+;Files
+;
+MSG_FILES_REMOVE_SEL_MENU
+S\000Eliminar Seleccionados
+;S\000Remove Selected
+;
+MSG_FILES_EMPTY_ALL_MENU
+E\000Vaciar Todas las Papeleras
+;E\000Empty All Trashcans
+;
+MSG_FILES_UNDELETE_ORG_MENU
+U\000Recuperar a Original
+;U\000Undelete to Original
+;
+MSG_FILES_UNDELETE_OTHER_MENU
+T\000Recuperar a Otro...
+;T\000Undelete to Other...
+;
+MSG_SETTINGS_MENU
+Ajustes
+;Settings
+;
+MSG_SETTINGS_EDIT_MENU
+P\000Editar...
+;P\000Edit...
+;
+MSG_SETTINGS_ABOUT_MENU
+\000\000Sobre...
+;\000\000About...
+;
+MSG_SAVE_GAD
+Save
+;Save
+;
+MSG_USE_GAD
+Usar
+;Use
+;
+MSG_CANCEL_GAD
+Cancelar
+;Cancel
+;
+MSG_PATCH_DELETE_GAD
+Parchear Delete()
+;Patch Delete()
+;
+MSG_PATCH_OPEN_GAD
+Parchear Open()
+;Patch Open()
+;
+MSG_PREFS_ADD1_GAD
+Añadir
+;Add
+;
+MSG_PREFS_REMOVE1_GAD
+Eliminar
+;Remove
+;
+MSG_PREFS_ADD2_GAD
+Añadir
+;Add
+;
+MSG_PREFS_REMOVE2_GAD
+Eliminar
+;Remove
+;
+MSG_APP_WINDOW_GAD
+Ventana App
+;App Window
+;
+MSG_APP_ICON_GAD
+Icono App
+;App Icon
+;
+MSG_APP_MENU_GAD
+Menú App
+;App Menu
+;
+MSG_ASK_BEFORE_DEL_GAD
+Preguntar antes de Borrar
+;Ask before Del.
+;
+MSG_ANIMATIONS_GAD
+Animaciones
+;Animations
+;
+MSG_HIDE_CLOSES_ALL_GAD
+Ocultar lo cierra todo
+;Hide closes all
+;
+MSG_DELETE_IF_ZEROK_GAD
+Borrar si el tamaño es 0
+;Delete if size 0
+;
+MSG_REMOVE_SELECTED
+Eliminando Seleccionados...
+;Removing Selected...
+;
+MSG_REMOVE_ALL
+Vaciando Papelera...
+;Emptying Trashcan...
+;
+MSG_UNDELETE_SELECTED
+Recuperando ficheros...
+;Undeleting files...
+;
+MSG_DELETED_PROGRESS
+Borrados: %ld%%
+;Deleted: %ld%%
+;
+MSG_UNDELETED_PROGRESS
+Recuperados: %ld%%
+;Undeleted: %ld%%
+;
+MSG_OK_GAD
+_OK
+;_Ok
+;
+MSG_SAVE_TRASHMAN_PREFS
+Grabar Preferencias Trashman
+;Save Trashman Preferences
+;
+MSG_LOAD_TRASHMAN_PREFS
+Cargar Preferencias Trashman
+;Load Trashman Preferences
+;
+MSG_FILE_ALREADY_EXISTS
+Fichero:\n%s\nya existe
+;File:\n%s\nalready exists
+;
+MSG_EXISTS_GAD
+_Reemplazar|_Saltar
+;_Replace|_Skip
+;
+MSG_UNDELETE_ERROR
+No puedo recuperar fichero porque\n
+;Can't undelete file because\n
+;
+MSG_NOT_ENOUGH_MEMORY_TO
+No hay suficiente memoria para\n%s.
+;Not enough memory to\n%s.
+;
+MSG_MOVE_FILE
+mover fichero
+;move file
+;
+MSG_COMMODITY_TITLE
+Trashman v%d.%d por Tomasz Muszynski
+;Trashman v%d.%d by Tomasz Muszynski
+;
+MSG_COMMODITY_DESCRIPTION
+Administrador de Trashman
+;Trashcan Manager
+;
+MSG_DELETE_ERROR
+No puedo borrar fichero porque\n
+;Can't delete file because\n
+;
+MSG_ERROR_CANT_OPEN_REQTOOLS
+No puedo abrir reqtools.library
+;Can't open reqtools.library
+;
+MSG_ERROR_CANT_OPEN_LOCALE
+No puedo abrir locale
+;Can't open locale
+;
+MSG_ERROR_CANT_CREATE_PORT
+No puedo crear message port
+;Can't create message port
+;
+MSG_ERROR_CANT_CREATE_HOTKEY
+No puedo crear hotkey
+;Can't create hotkey
+;
+MSG_ERROR_CANT_OPEN_FONT
+No puedo abrir fuente de disco
+;Can't open disk font
+;
+MSG_ERROR_CANT_OPEN_PROGRESS
+No puedo abrir progress.gadget
+;Can't open progress.gadget
+;
+MSG_ERROR_CANT_SETUP_SCREEN
+No puedo incializar pantalla
+;Can't setup screen
+;
+MSG_ERROR_CANT_GET_DRI
+No puedo obtener draw info
+;Can't get draw info
+;
+MSG_ERROR_CANT_ALLOC_REQ
+No puedo reservar requester
+;Can't allocate requester
+;
+MSG_ERROR_CANT_OPEN_ICON
+No puedo abrir icono papelera
+;Can't open trashcan icon
+;
+MSG_ERROR_CANT_ALLOC_DOSOBJ
+No puedo reservar DOS object
+;Can't allocate DOS object
+;
+MSG_ERROR_CANT_CREATE_APPWINDOW
+No puedo crear AppWindow
+;Can't create AppWindow
+;
+MSG_ERROR_CANT_CREATE_APPICON
+No puedo crear AppIcon
+;Can't create AppIcon
+;
+MSG_ERROR_CANT_CREATE_APPMENU
+No puedo crear AppMenu
+;Can't create AppMenu
+;
+MSG_ERROR_CANT_CREATE_COMMODITY
+No puedo crear commodity
+;Can't create commodity
+;
+MSG_ERROR_CANT_CREATE_OBJECT
+No puedo crear image object
+;Can't create image object
+;
+MSG_DISK_FULL
+Volumen %s tiene menos de %ldKB de espacio libre.\n¿Quieres vaciar la papelera en este volumen?
+;Volume %s has less than %ldKB of free space.\nDo you want to empty trashcan on this volume?
+;
+MSG_ERROR_CANT_OPEN_MULTIUSER
+No puedo abrir multiuser.library
+;Can't open multiuser.library
+;
+MSG_ERROR_CANT_ALLOC_USERINFO
+No puedo reservar UserInfo
+;Can't allocate UserInfo
+;
+MSG_SOUND_GAD
+Sonido
+;Sound
+;
+MSG_SELECT_SOUND
+Seleccionar Sonido para vaciar Papelera...
+;Select Empty Trash Sound...
+;

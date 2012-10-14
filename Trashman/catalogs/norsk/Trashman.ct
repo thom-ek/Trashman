@@ -1,0 +1,354 @@
+## version $VER: Trashman.catalog 1.3 (28.10.96)
+## language norsk
+## codeset 0
+;
+; Trashman locale description file
+;
+MSG_BAD_SYSTEM_VERSION
+Du trenger en Amiga\nmed OS 3.0
+;
+MSG_ICON_TITLE
+Søppel
+;
+MSG_TOOLS_MENU
+Tøm søppel
+;
+MSG_REQTITLE
+Trashman
+;
+MSG_EMPTYALL
+Vil du tømme\nalle søppelbøtter?
+;
+MSG_YESNO_GAD
+_Ja|_Nei
+;
+MSG_REMOVESELECTED
+Vil du slette\nvalgte filer?
+;
+MSG_ADD_VOLUMES
+Velg disk med søppelbøtte
+;
+MSG_ADD_GAD
+_Legg til
+;
+MSG_FORCE_DELETE_TITLE
+Skriv inn filmønster for tvangssletting
+;
+MSG_DIR
+(skuff)
+;
+MSG_SCREEN_TITLE
+Trashman av Tomasz Muszynski
+;
+MSG_MOVING_FILES
+Flytter til søppelbøtte...
+;
+MSG_FILE_IS_LINK
+Fil:\n%s\ner %s\nog kan ikke bli flyttet til søppelbøtte
+;
+MSG_DELETE_LINK_GAD
+_Slett lenke|_Hopp over
+;
+MSG_SOFT_LINK
+myk lenke
+;
+MSG_HARD_LINK_DIR
+hard lenke til skuffe
+;
+MSG_HARD_LINK_FILE
+hard lenke til fil
+;
+MSG_FILE_ALREADY_EXISTS_IN_TRASHCAN
+Fil:\n%s\neksisterer allerede i søppelbøtte
+;
+MSG_EXISTS_TRASHCAN_GAD
+_Erstatt|_Endre navn|_Slett|_Hopp over
+;
+MSG_SELECT_DESTINATION
+Velg destinasjon...
+;
+MSG_UNDELETE_GAD
+_Tilbake
+;
+MSG_READING_DIRECTORY
+Leser skuffe...
+;
+MSG_ABOUT
+Trashman v%d.%d\nav\nTomasz Muszynski\n\nDette programmet er\nFREEWARE
+;
+MSG_ABOUT_OK_GAD
+_Ok
+;
+MSG_WINDOW_TITLE
+Søppelbøtte, S:[%d/%d] F:[%d/%d] B:[%d/%d] %s
+;
+MSG_PREFERENCES_TITLE
+Trashman oppsett
+;
+MSG_OVERWRITE_NEVER_GAD
+Aldri
+;
+MSG_OVERWRITE_ALWAYS_GAD
+Alltid
+;
+MSG_OVERWRITE_ASK_GAD
+Spør
+;
+MSG_OVERWRITE_SAME_LOC_GAD
+Samme sted
+;
+MSG_MISCELAENOUS
+Forskjellig
+;
+MSG_VOLUMES
+Disker
+;
+MSG_FORCE_DELETE
+Tvangs Slett
+;
+MSG_OVERWRITE
+Overskriv
+;
+MSG_MIN_FREE_DISK
+Min. ledig plass på disk
+;
+MSG_KB_ON_DISK_GAD
+KB på disk
+;
+MSG_PROJECT_MENU
+Prosjekt
+;
+MSG_PROJECT_OPEN_MENU
+Å\000Åpne...
+;
+MSG_PROJECT_SAVE_AS_MENU
+S\000Lagre som...
+;
+MSG_PROJECT_HIDE_MENU
+G\000Gjem
+;
+MSG_PROJECT_QUIT_MENU
+A\000Avslutt
+;
+MSG_WINDOW_MENU
+Vindu
+;
+MSG_WINDOW_CLOSE_MENU
+L\000Lukk
+;
+MSG_WINDOW_UPDATE_MENU
+\000\000Oppdatér
+;
+MSG_WINDOW_SELECT_CONTENTS_MENU
+\000\000Velg innhold
+;
+MSG_WINDOW_SNAPSHOT_MENU
+Snapshot
+;
+MSG_WINDOW_SNAPSHOT_DESKTOP_MENU
+\000\000Desktop Ikon
+;
+MSG_WINDOW_SNAPSHOT_MAIN_MENU
+\000\000Hoved vindu
+;
+MSG_WINDOW_SNAPSHOT_TRASHCAN_MENU
+\000\000Søppelbøtte vindu
+;
+MSG_WINDOW_VIEW_MENU
+Les ved
+;
+MSG_WINDOW_VIEW_NAME_MENU
+\000\000Navn
+;
+MSG_WINDOW_VIEW_SIZE_MENU
+\000\000Størrelse
+;
+MSG_WINDOW_VIEW_DATE_MENU
+\000\000Dato
+;
+MSG_WINDOW_VIEW_LOCATION_MENU
+\000\000Sted
+;
+MSG_FILES_MENU
+Filer
+;
+MSG_FILES_REMOVE_SEL_MENU
+F\000Fjern valgt
+;
+MSG_FILES_EMPTY_ALL_MENU
+T\000Tøm alle søppelbøtter
+;
+MSG_FILES_UNDELETE_ORG_MENU
+T\000Tilbake til Orginal
+;
+MSG_FILES_UNDELETE_OTHER_MENU
+I\000Tilbake til annen...
+;
+MSG_SETTINGS_MENU
+Oppsett
+;
+MSG_SETTINGS_EDIT_MENU
+D\000Rediger...
+;
+MSG_SETTINGS_ABOUT_MENU
+O\000\000Om...
+;
+MSG_SAVE_GAD
+Lagre
+;
+MSG_USE_GAD
+Bruk
+;
+MSG_CANCEL_GAD
+Avbryt
+;
+MSG_PATCH_DELETE_GAD
+Forandre Delete()
+;
+MSG_PATCH_OPEN_GAD
+Forandre Open()
+;
+MSG_PREFS_ADD1_GAD
+Legg til
+;
+MSG_PREFS_REMOVE1_GAD
+Fjern
+;
+MSG_PREFS_ADD2_GAD
+Legg til
+;
+MSG_PREFS_REMOVE2_GAD
+Fjern
+;
+MSG_APP_WINDOW_GAD
+App Vindu
+;
+MSG_APP_ICON_GAD
+App Ikon
+;
+MSG_APP_MENU_GAD
+App Meny
+;
+MSG_ASK_BEFORE_DEL_GAD
+Spør før Sletting
+;
+MSG_ANIMATIONS_GAD
+Animasjoner
+;
+MSG_HIDE_CLOSES_ALL_GAD
+Gjem lukker alt
+;
+MSG_DELETE_IF_ZEROK_GAD
+Slett hvis størrelse 0
+;
+MSG_REMOVE_SELECTED
+Fjerner Valgte
+;
+MSG_REMOVE_ALL
+Tømmer søppelbøtter...
+;
+MSG_UNDELETE_SELECTED
+Filer tilbake...
+;
+MSG_DELETED_PROGRESS
+Slettet: %ld%%
+;
+MSG_UNDELETED_PROGRESS
+Tilbake: %ld%%
+;
+MSG_OK_GAD
+_Ok
+;
+MSG_SAVE_TRASHMAN_PREFS
+Lagre Trashman oppsett
+;
+MSG_LOAD_TRASHMAN_PREFS
+Hent Trashman Preferences
+;
+MSG_FILE_ALREADY_EXISTS
+Fil:\n%s\nfinnes allerede
+;
+MSG_EXISTS_GAD
+_Erstatt|_Hopp over
+;
+MSG_UNDELETE_ERROR
+Can ikke sette fil tilbake pga.\n
+;
+MSG_NOT_ENOUGH_MEMORY_TO
+Ikke nok minne for å \n%s.
+;
+MSG_MOVE_FILE
+flytte fil
+;
+MSG_COMMODITY_TITLE
+Trashman v%d.%d av Tomasz Muszynski
+;
+MSG_COMMODITY_DESCRIPTION
+Søppelbøtte bestyrer
+;
+MSG_DELETE_ERROR
+Kan ikke slette fil pga.\n
+;
+MSG_ERROR_CANT_OPEN_REQTOOLS
+Kan ikke åpne reqtools.library
+;
+MSG_ERROR_CANT_OPEN_LOCALE
+Kan ikke åpne 'locale'
+;
+MSG_ERROR_CANT_CREATE_PORT
+Kan ikke opprette meldingsport
+;
+MSG_ERROR_CANT_CREATE_HOTKEY
+Kan ikke lage 'hotkey'
+;
+MSG_ERROR_CANT_OPEN_FONT
+Kan ikke åpne disk skrifttype
+;
+MSG_ERROR_CANT_OPEN_PROGRESS
+Kan ikke åpne 'progress.gadget'
+;
+MSG_ERROR_CANT_SETUP_SCREEN
+Kan ikke sette opp skjerm
+;
+MSG_ERROR_CANT_GET_DRI
+Får ikke 'drawinfo'
+;
+MSG_ERROR_CANT_ALLOC_REQ
+Kan ikke allokere dialogboks
+;
+MSG_ERROR_CANT_OPEN_ICON
+Kan ikke åpne søppelbøtte ikon
+;
+MSG_ERROR_CANT_ALLOC_DOSOBJ
+Kan ikke allokere DOS objekt
+;
+MSG_ERROR_CANT_CREATE_APPWINDOW
+Kan ikke opprette AppVindu
+;
+MSG_ERROR_CANT_CREATE_APPICON
+Kan ikke opprette AppIkon
+;
+MSG_ERROR_CANT_CREATE_APPMENU
+Kan ikke opprette AppMeny
+;
+MSG_ERROR_CANT_CREATE_COMMODITY
+Kan ikke opprette 'commodity'
+;
+MSG_ERROR_CANT_CREATE_OBJECT
+Kan ikke opprette bilde objekt
+;
+MSG_DISK_FULL
+Disk %s har mindre enn %ldKB ledig plass.\nØnsker du å Tømme søppelbøtte på denne disken?
+;
+MSG_ERROR_CANT_OPEN_MULTIUSER
+Kan ikke åpne 'multiuser.library'
+;
+MSG_ERROR_CANT_ALLOC_USERINFO
+Kan ikke allokere 'BrukerInfo'
+;
+MSG_SOUND_GAD
+Lyd
+;
+MSG_SELECT_SOUND
+Velg 'tømme' lyd...
+;

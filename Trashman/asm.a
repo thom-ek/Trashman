@@ -1,0 +1,29 @@
+	SECTION asm,code
+
+	include "lvo/dos_lib.i"
+
+	XREF	_DOSBase
+
+	XDEF	_CallDeleteFile
+_CallDeleteFile:
+	sub.w	#0,a0
+	beq	jumpnull_df
+	jsr	(a0)
+	rts
+jumpnull_df:
+	move.l	_DOSBase,a0
+	jsr	_LVODeleteFile(a0)
+	rts
+
+	XDEF	_CallOpen
+_CallOpen:
+	sub.w	#0,a0
+	beq	jumpnull_o
+	jsr	(a0)
+	rts
+jumpnull_o:
+	move.l	_DOSBase,a0
+	jsr	_LVOOpen(a0)
+	rts
+
+	end

@@ -1,0 +1,470 @@
+## version $VER: Trashman.catalog 1.3 (xx.xx.xx)
+## language xx
+## codeset 0
+;
+; Trashman locale description file
+;
+MSG_BAD_SYSTEM_VERSION
+
+;You need an Amiga\nwith OS 3.0
+;
+MSG_ICON_TITLE
+
+;Trash
+;
+MSG_TOOLS_MENU
+
+;Empty Trash
+;
+MSG_REQTITLE
+
+;Trashman
+;
+MSG_EMPTYALL
+
+;Do you really want to\nempty all trashcans?
+;
+MSG_YESNO_GAD
+
+;_Yes|_No
+;
+MSG_REMOVESELECTED
+
+;Do you really want to remove\nselected files?
+;
+MSG_ADD_VOLUMES
+
+;Select disk with trashcan
+;
+MSG_ADD_GAD
+
+;_Add
+;
+MSG_FORCE_DELETE_TITLE
+
+;Enter file pattern to force delete
+;
+MSG_DIR (//10)
+
+;(dir)
+;
+MSG_SCREEN_TITLE
+
+;Trashman by Tomasz Muszynski
+;
+MSG_MOVING_FILES
+
+;Moving to Trashcan...
+;
+MSG_FILE_IS_LINK
+
+;File:\n%s\nis a %s\nand can't be moved to trashcan
+;
+MSG_DELETE_LINK_GAD
+
+;_Delete link|_Skip
+;
+MSG_SOFT_LINK
+
+;soft link
+;
+MSG_HARD_LINK_DIR
+
+;hard link to dir
+;
+MSG_HARD_LINK_FILE
+
+;hard link to file
+;
+MSG_FILE_ALREADY_EXISTS_IN_TRASHCAN
+
+;File:\n%s\nalready exists in trashcan
+;
+MSG_EXISTS_TRASHCAN_GAD
+
+;_Replace|_Rename|_Delete|_Skip
+;
+MSG_SELECT_DESTINATION
+
+;Select destination...
+;
+MSG_UNDELETE_GAD
+
+;_Undelete
+;
+MSG_READING_DIRECTORY
+
+;Reading Directory...
+;
+MSG_ABOUT
+
+;Trashman v%d.%d\nby\nTomasz Muszynski\n\nThis program is\nFREEWARE
+;
+MSG_ABOUT_OK_GAD
+
+;_Ok
+;
+MSG_WINDOW_TITLE
+
+;Trashcan, D:[%d/%d] F:[%d/%d] B:[%d/%d] %s
+;
+MSG_PREFERENCES_TITLE
+
+;Trashman Preferences
+;
+MSG_OVERWRITE_NEVER_GAD
+
+;Never
+;
+MSG_OVERWRITE_ALWAYS_GAD
+
+;Always
+;
+MSG_OVERWRITE_ASK_GAD
+
+;Ask
+;
+MSG_OVERWRITE_SAME_LOC_GAD
+
+;Same Location
+;
+MSG_MISCELAENOUS
+
+;Miscelaenous
+;
+MSG_VOLUMES
+
+;Volumes
+;
+MSG_FORCE_DELETE
+
+;Force Delete
+;
+MSG_OVERWRITE
+
+;Overwrite
+;
+MSG_MIN_FREE_DISK
+
+;Min free on disk
+;
+MSG_KB_ON_DISK_GAD
+
+;KB on disk
+;
+MSG_PROJECT_MENU
+
+;Project
+;
+MSG_PROJECT_OPEN_MENU
+
+;O\000Open...
+;
+MSG_PROJECT_SAVE_AS_MENU
+
+;A\000Save As...
+;
+MSG_PROJECT_HIDE_MENU
+
+;H\000Hide
+;
+MSG_PROJECT_QUIT_MENU
+
+;Q\000Quit
+;
+MSG_WINDOW_MENU
+
+;Window
+;
+MSG_WINDOW_CLOSE_MENU
+
+;K\000Close
+;
+MSG_WINDOW_UPDATE_MENU
+
+;\000\000Update
+;
+MSG_WINDOW_SELECT_CONTENTS_MENU
+
+;\000\000Select Contents
+;
+MSG_WINDOW_SNAPSHOT_MENU
+
+;Snapshot
+;
+MSG_WINDOW_SNAPSHOT_DESKTOP_MENU
+
+;\000\000Desktop Icon
+;
+MSG_WINDOW_SNAPSHOT_MAIN_MENU
+
+;\000\000Main Window
+;
+MSG_WINDOW_SNAPSHOT_TRASHCAN_MENU
+
+;\000\000Trashcan Window
+;
+MSG_WINDOW_VIEW_MENU
+
+;View by
+;
+MSG_WINDOW_VIEW_NAME_MENU
+
+;\000\000Name
+;
+MSG_WINDOW_VIEW_SIZE_MENU
+
+;\000\000Size
+;
+MSG_WINDOW_VIEW_DATE_MENU
+
+;\000\000Date
+;
+MSG_WINDOW_VIEW_LOCATION_MENU
+
+;\000\000Location
+;
+MSG_FILES_MENU
+
+;Files
+;
+MSG_FILES_REMOVE_SEL_MENU
+
+;S\000Remove Selected
+;
+MSG_FILES_EMPTY_ALL_MENU
+
+;E\000Empty All Trashcans
+;
+MSG_FILES_UNDELETE_ORG_MENU
+
+;U\000Undelete to Original
+;
+MSG_FILES_UNDELETE_OTHER_MENU
+
+;T\000Undelete to Other...
+;
+MSG_SETTINGS_MENU
+
+;Settings
+;
+MSG_SETTINGS_EDIT_MENU
+
+;P\000Edit...
+;
+MSG_SETTINGS_ABOUT_MENU
+
+;\000\000About...
+;
+MSG_SAVE_GAD
+
+;Save
+;
+MSG_USE_GAD
+
+;Use
+;
+MSG_CANCEL_GAD
+
+;Cancel
+;
+MSG_PATCH_DELETE_GAD
+
+;Patch Delete()
+;
+MSG_PATCH_OPEN_GAD
+
+;Patch Open()
+;
+MSG_PREFS_ADD1_GAD
+
+;Add
+;
+MSG_PREFS_REMOVE1_GAD
+
+;Remove
+;
+MSG_PREFS_ADD2_GAD
+
+;Add
+;
+MSG_PREFS_REMOVE2_GAD
+
+;Remove
+;
+MSG_APP_WINDOW_GAD
+
+;App Window
+;
+MSG_APP_ICON_GAD
+
+;App Icon
+;
+MSG_APP_MENU_GAD
+
+;App Menu
+;
+MSG_ASK_BEFORE_DEL_GAD
+
+;Ask before Del.
+;
+MSG_ANIMATIONS_GAD
+
+;Animations
+;
+MSG_HIDE_CLOSES_ALL_GAD
+
+;Hide closes all
+;
+MSG_DELETE_IF_ZEROK_GAD
+
+;Delete if size 0
+;
+MSG_REMOVE_SELECTED
+
+;Removing Selected...
+;
+MSG_REMOVE_ALL
+
+;Emptying Trashcan...
+;
+MSG_UNDELETE_SELECTED
+
+;Undeleting files...
+;
+MSG_DELETED_PROGRESS
+
+;Deleted: %ld%%
+;
+MSG_UNDELETED_PROGRESS
+
+;Undeleted: %ld%%
+;
+MSG_OK_GAD
+
+;_Ok
+;
+MSG_SAVE_TRASHMAN_PREFS
+
+;Save Trashman Preferences
+;
+MSG_LOAD_TRASHMAN_PREFS
+
+;Load Trashman Preferences
+;
+MSG_FILE_ALREADY_EXISTS
+
+;File:\n%s\nalready exists
+;
+MSG_EXISTS_GAD
+
+;_Replace|_Skip
+;
+MSG_UNDELETE_ERROR
+
+;Can't undelete file because\n
+;
+MSG_NOT_ENOUGH_MEMORY_TO
+
+;Not enough memory to\n%s.
+;
+MSG_MOVE_FILE
+
+;move file
+;
+MSG_COMMODITY_TITLE (//40)
+
+;Trashman v%d.%d by Tomasz Muszynski
+;
+MSG_COMMODITY_DESCRIPTION (//40)
+
+;Trashcan Manager
+;
+MSG_DELETE_ERROR
+
+;Can't delete file because\n
+;
+MSG_ERROR_CANT_OPEN_REQTOOLS
+
+;Can't open reqtools.library
+;
+MSG_ERROR_CANT_OPEN_LOCALE
+
+;Can't open locale
+;
+MSG_ERROR_CANT_CREATE_PORT
+
+;Can't create message port
+;
+MSG_ERROR_CANT_CREATE_HOTKEY
+
+;Can't create hotkey
+;
+MSG_ERROR_CANT_OPEN_FONT
+
+;Can't open disk font
+;
+MSG_ERROR_CANT_OPEN_PROGRESS
+
+;Can't open progress.gadget
+;
+MSG_ERROR_CANT_SETUP_SCREEN
+
+;Can't setup screen
+;
+MSG_ERROR_CANT_GET_DRI
+
+;Can't get draw info
+;
+MSG_ERROR_CANT_ALLOC_REQ
+
+;Can't allocate requester
+;
+MSG_ERROR_CANT_OPEN_ICON
+
+;Can't open trashcan icon
+;
+MSG_ERROR_CANT_ALLOC_DOSOBJ
+
+;Can't allocate DOS object
+;
+MSG_ERROR_CANT_CREATE_APPWINDOW
+
+;Can't create AppWindow
+;
+MSG_ERROR_CANT_CREATE_APPICON
+
+;Can't create AppIcon
+;
+MSG_ERROR_CANT_CREATE_APPMENU
+
+;Can't create AppMenu
+;
+MSG_ERROR_CANT_CREATE_COMMODITY
+
+;Can't create commodity
+;
+MSG_ERROR_CANT_CREATE_OBJECT
+
+;Can't create image object
+;
+MSG_DISK_FULL
+
+;Volume %s has less than %ldKB of free space.\nDo you want to empty trashcan on this volume?
+;
+MSG_ERROR_CANT_OPEN_MULTIUSER
+
+;Can't open multiuser.library
+;
+MSG_ERROR_CANT_ALLOC_USERINFO
+
+;Can't allocate UserInfo
+;
+MSG_SOUND_GAD
+
+;Sound
+;
+MSG_SELECT_SOUND
+
+;Select Empty Trash Sound...
+;

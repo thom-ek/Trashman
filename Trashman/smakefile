@@ -1,0 +1,75 @@
+#
+# Makefile for Trashman by Tomasz Muszynski
+#
+
+all: Trashman catalog
+
+VERSION = 1
+REVISION = 0
+
+PROGRAMNAME = Trashman
+PUBSCREEN = SASPRJ.1
+OBJECTS = $(PROGRAMNAME)_cat.o main.o thomdos.o gadtools.o asm.o boopsi.o
+
+LANGUAGE = polski
+CATALOGLANG = Catalogs/$(LANGUAGE)
+CATALOGCTEMPL = sc:Tools/FlexCat/Lib/C_c_V21.sd
+CATALOGHTEMPL = sc:Tools/FlexCat/Lib/C_h.sd
+
+$(PROGRAMNAME): $(OBJECTS)
+  sc link TO $(PROGRAMNAME) <WITH <
+$(OBJECTS)
+<
+
+###########################
+# Dependences
+
+main.o: main.c gadtools.h $(PROGRAMNAME)_cat.h $(PROGRAMNAME)_rev.h
+thomdos.o: thomdos.c
+gadtools.o: gadtools.c gadtools.h
+asm.o: asm.a
+$(PROGRAMNAME)_cat.o: Catalogs/$(PROGRAMNAME).cd trashman_cat.c
+  flexcat Catalogs/$(PROGRAMNAME).cd $(PROGRAMNAME)_cat.c=$(CATALOGCTEMPL) $(PROGRAMNAME)_cat.h=$(CATALOGHTEMPL)
+  sc $(PROGRAMNAME)_cat.c
+
+###########################
+# Other
+
+# Bump version
+bumprev:
+  @-bumprev $(VERSION) $(PROGRAMNAME)_rev
+
+# Install it
+install:
+  @-copy $(CATALOGLANG)/$(PROGRAMNAME).catalog LOCALE:$(CATALOGLANG)
+  @-avail FLUSH >NIL:
+  @-copy $(PROGRAMNAME) SYS:WBStartup
+
+# Make catalog and copy it to LOCALE:
+catalog:
+  flexcat Catalogs/$(PROGRAMNAME).cd Catalogs/czech/$(PROGRAMNAME).ct CATALOG Catalogs/czech/$(PROGRAMNAME).catalog
+  flexcat Catalogs/$(PROGRAMNAME).cd Catalogs/espanol/$(PROGRAMNAME).ct CATALOG Catalogs/espanol/$(PROGRAMNAME).catalog
+#  flexcat Catalogs/$(PROGRAMNAME).cd Catalogs/italiano/$(PROGRAMNAME).ct CATALOG Catalogs/italiano/$(PROGRAMNAME).catalog
+  flexcat Catalogs/$(PROGRAMNAME).cd Catalogs/norsk/$(PROGRAMNAME).ct CATALOG Catalogs/norsk/$(PROGRAMNAME).catalog
+  flexcat Catalogs/$(PROGRAMNAME).cd Catalogs/polski/$(PROGRAMNAME).ct CATALOG Catalogs/polski/$(PROGRAMNAME).catalog
+  flexcat Catalogs/$(PROGRAMNAME).cd Catalogs/deutsch/$(PROGRAMNAME).ct CATALOG Catalogs/deutsch/$(PROGRAMNAME).catalog
+  flexcat Catalogs/$(PROGRAMNAME).cd Catalogs/francais/$(PROGRAMNAME).ct CATALOG Catalogs/francais/$(PROGRAMNAME).catalog
+  @-copy $(CATALOGLANG)/$(PROGRAMNAME).catalog LOCALE:$(CATALOGLANG)
+  @-avail FLUSH >NIL:
+
+# Make empty translation
+translate: Catalogs/$(PROGRAMNAME).cd
+  -flexcat Catalogs/$(PROGRAMNAME).cd NEWCTFILE $(CATALOGLANG)/$(PROGRAMNAME).ct
+
+# Run it
+run:
+  @-$(PROGRAMNAME)
+
+# debug it
+cpr:
+  @-cpr -screen $(PUBSCREEN) $(PROGRAMNAME)
+
+#open ProjectMan
+edit:
+  @-ProjectMan
+  @-ed main.c

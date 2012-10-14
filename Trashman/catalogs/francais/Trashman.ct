@@ -1,0 +1,354 @@
+## version $VER: Trashman.catalog 1.3 (08.04.97)
+## language français
+## codeset 0
+;
+; Trashman locale description file
+;
+MSG_BAD_SYSTEM_VERSION
+Il vous faut un Amiga\navec OS 3.0
+;
+MSG_ICON_TITLE
+;Poubelle
+;
+MSG_TOOLS_MENU
+Vider la poubelle
+;
+MSG_REQTITLE
+Trashman
+;
+MSG_EMPTYALL
+Voulez-vous vraiment\nvider toutes les poubelles?
+;
+MSG_YESNO_GAD
+_Oui|_Non
+;
+MSG_REMOVESELECTED
+Voulez-vous effacer\nles fichiers choisis?
+;
+MSG_ADD_VOLUMES
+Choisissez une Pertition\navec une poubelle
+;
+MSG_ADD_GAD
+_Ajouter
+;
+MSG_FORCE_DELETE_TITLE
+Entrer un pattern
+;
+MSG_DIR
+(tir)
+;
+MSG_SCREEN_TITLE
+Trashman de Tomasz Muszynski
+;
+MSG_MOVING_FILES
+Transfert à la poubelle...
+;
+MSG_FILE_IS_LINK
+Fichier:\n%s\nest un(e) %s\net ne peut être effacé.
+;
+MSG_DELETE_LINK_GAD
+_Effacer link|_Annuler
+;
+MSG_SOFT_LINK
+Softlink
+;
+MSG_HARD_LINK_DIR
+Hardlink au tiroir
+;
+MSG_HARD_LINK_FILE
+Hardlink au fichier
+;
+MSG_FILE_ALREADY_EXISTS_IN_TRASHCAN
+Fichier:\n%s\existe déjà à la poubelle
+;
+MSG_EXISTS_TRASHCAN_GAD
+_Remplacer|Re_nommer|_Effacer|_Ignorer
+;
+MSG_SELECT_DESTINATION
+Choisissez une destination...
+;
+MSG_UNDELETE_GAD
+_Restaurer
+;
+MSG_READING_DIRECTORY
+Lecture du tiroir...
+;
+MSG_ABOUT
+Trashman v%d.%d\nde\nTomasz Muszynski\n\nCe programme est\nFREEWARE
+;
+MSG_ABOUT_OK_GAD
+_Ok
+;
+MSG_WINDOW_TITLE
+Trashcan, T:[%d/%d] F:[%d/%d] O:[%d/%d] %s
+;
+MSG_PREFERENCES_TITLE
+Trashman Préférences
+;
+MSG_OVERWRITE_NEVER_GAD
+Jamais
+;
+MSG_OVERWRITE_ALWAYS_GAD
+Toujours
+;
+MSG_OVERWRITE_ASK_GAD
+Demander
+;
+MSG_OVERWRITE_SAME_LOC_GAD
+Même origine
+;
+MSG_MISCELAENOUS
+Autres
+;
+MSG_VOLUMES
+Partition
+;
+MSG_FORCE_DELETE
+Obliger effacement
+;
+MSG_OVERWRITE
+Remplacer
+;
+MSG_MIN_FREE_DISK
+Min. espace
+;
+MSG_KB_ON_DISK_GAD
+KO sur Partition
+;
+MSG_PROJECT_MENU
+Projet
+;
+MSG_PROJECT_OPEN_MENU
+O\000Ouvrir...
+;
+MSG_PROJECT_SAVE_AS_MENU
+A\000Sauver sous...
+;
+MSG_PROJECT_HIDE_MENU
+H\000Cacher
+;
+MSG_PROJECT_QUIT_MENU
+Q\000Quitter
+;
+MSG_WINDOW_MENU
+Fenêtre
+;
+MSG_WINDOW_CLOSE_MENU
+K\000Fermer
+;
+MSG_WINDOW_UPDATE_MENU
+\000\000Relancer
+;
+MSG_WINDOW_SELECT_CONTENTS_MENU
+\000\000Choisir contenu
+;
+MSG_WINDOW_SNAPSHOT_MENU
+Figer
+;
+MSG_WINDOW_SNAPSHOT_DESKTOP_MENU
+\000\000Desktop Icon
+;
+MSG_WINDOW_SNAPSHOT_MAIN_MENU
+\000\000Fenêtre principale
+;
+MSG_WINDOW_SNAPSHOT_TRASHCAN_MENU
+\000\000Fenêtre poubelle
+;
+MSG_WINDOW_VIEW_MENU
+Trier
+;
+MSG_WINDOW_VIEW_NAME_MENU
+\000\000Nom
+;
+MSG_WINDOW_VIEW_SIZE_MENU
+\000\000Taille
+;
+MSG_WINDOW_VIEW_DATE_MENU
+\000\000Date
+;
+MSG_WINDOW_VIEW_LOCATION_MENU
+\000\000Origine
+;
+MSG_FILES_MENU
+Fichiers
+;
+MSG_FILES_REMOVE_SEL_MENU
+S\000Effacer choisi
+;
+MSG_FILES_EMPTY_ALL_MENU
+E\000Vider toutes les poubelles
+;
+MSG_FILES_UNDELETE_ORG_MENU
+U\000Restaurer
+;
+MSG_FILES_UNDELETE_OTHER_MENU
+T\000Tansférer à...
+;
+MSG_SETTINGS_MENU
+Préférences
+;
+MSG_SETTINGS_EDIT_MENU
+P\000Editer...
+;
+MSG_SETTINGS_ABOUT_MENU
+\000\000Au sujet de...
+;
+MSG_SAVE_GAD
+Sauver
+;
+MSG_USE_GAD
+Utiliser
+;
+MSG_CANCEL_GAD
+Annuler
+;
+MSG_PATCH_DELETE_GAD
+Patch Delete()
+;
+MSG_PATCH_OPEN_GAD
+Patch Open()
+;
+MSG_PREFS_ADD1_GAD
+Ajouter
+;
+MSG_PREFS_REMOVE1_GAD
+Supprimer
+;
+MSG_PREFS_ADD2_GAD
+Ajouter
+;
+MSG_PREFS_REMOVE2_GAD
+Supprimer
+;
+MSG_APP_WINDOW_GAD
+App Fenêtre
+;
+MSG_APP_ICON_GAD
+App Icône
+;
+MSG_APP_MENU_GAD
+App Menu
+;
+MSG_ASK_BEFORE_DEL_GAD
+Demander avant effacement
+;
+MSG_ANIMATIONS_GAD
+Animations
+;
+MSG_HIDE_CLOSES_ALL_GAD
+Cacher ferme tout
+;
+MSG_DELETE_IF_ZEROK_GAD
+Effacer si taille = 0
+;
+MSG_REMOVE_SELECTED
+Effacer choisis...
+;
+MSG_REMOVE_ALL
+Vider poubeller...
+;
+MSG_UNDELETE_SELECTED
+Restaurer...
+;
+MSG_DELETED_PROGRESS
+Effacé: %ld%%
+;
+MSG_UNDELETED_PROGRESS
+Sauvé: %ld%%
+;
+MSG_OK_GAD
+_Ok
+;
+MSG_SAVE_TRASHMAN_PREFS
+Sauvegarde des préférences
+;
+MSG_LOAD_TRASHMAN_PREFS
+Chargemant des préférences
+;
+MSG_FILE_ALREADY_EXISTS
+Fichier:\n%s\ndéjà existant
+;
+MSG_EXISTS_GAD
+_Remplacer|_Ignorer
+;
+MSG_UNDELETE_ERROR
+Restauration impossible parce que:\n
+;
+MSG_NOT_ENOUGH_MEMORY_TO
+Pas assez de mémoire pour\n%s.
+;
+MSG_MOVE_FILE
+copier le fichier
+;
+MSG_COMMODITY_TITLE
+Trashman v%d.%d de Tomasz Muszynski
+;
+MSG_COMMODITY_DESCRIPTION
+Trashcan Manager
+;
+MSG_DELETE_ERROR
+Effacement impossible parce que:\n
+;
+MSG_ERROR_CANT_OPEN_REQTOOLS
+reqtools.library ne peut être ouverte
+;
+MSG_ERROR_CANT_OPEN_LOCALE
+locale ne peut être ouvert
+;
+MSG_ERROR_CANT_CREATE_PORT
+Messageport ne peut être ouvert
+;
+MSG_ERROR_CANT_CREATE_HOTKEY
+Hotkey ne peut être créé
+;
+MSG_ERROR_CANT_OPEN_FONT
+je ne peux ouvrir disk font
+;
+MSG_ERROR_CANT_OPEN_PROGRESS
+je ne peux ouvrir progress.gadget
+;
+MSG_ERROR_CANT_SETUP_SCREEN
+je ne peux travailler sur cet écran
+;
+MSG_ERROR_CANT_GET_DRI
+je ne peux obtenir l'inormation de dessin
+;
+MSG_ERROR_CANT_ALLOC_REQ
+je ne peux alloquer la requête
+;
+MSG_ERROR_CANT_OPEN_ICON
+je ne peux ouvrir l'icône
+;
+MSG_ERROR_CANT_ALLOC_DOSOBJ
+je ne peux alloquer le DOS-Object
+;
+MSG_ERROR_CANT_CREATE_APPWINDOW
+je ne peux ouvrir le App Fenêtre
+;
+MSG_ERROR_CANT_CREATE_APPICON
+je ne peux ouvrir le App-Icône
+;
+MSG_ERROR_CANT_CREATE_APPMENU
+je ne peux ouvrir le App-Menu
+;
+MSG_ERROR_CANT_CREATE_COMMODITY
+je ne peux ouvrir le commodity
+;
+MSG_ERROR_CANT_CREATE_OBJECT
+je ne peux créer l'objet image
+;
+MSG_DISK_FULL
+Partition %s a moins de %ldKO  de libre.\nVoulez-vous vider la poubelle sur cette partition?
+;
+MSG_ERROR_CANT_OPEN_MULTIUSER
+multiuser.library ne peut être ouverte
+;
+MSG_ERROR_CANT_ALLOC_USERINFO
+UserInfo ne peut être alloqué
+;
+MSG_SOUND_GAD
+Son
+;
+MSG_SELECT_SOUND
+Choisissez le 'vider la poubelle' son...
+;
